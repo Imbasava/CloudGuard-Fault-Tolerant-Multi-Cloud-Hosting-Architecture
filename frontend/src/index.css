@@ -1,0 +1,21 @@
+/* 
+  You can add this to your existing index.css file.
+  This file is usually located in the `src` folder of your React project.
+*/
+
+body {
+  margin: 0; /* Resets default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* === New Background Style === */
+  /* This creates a soft, clean, and modern gradient background. */
+  background: linear-gradient(to right top, #e6e9f0 0%, #eef1f5 100%);
+  
+  /* This ensures the background covers the full page and stays fixed when scrolling. */
+  background-attachment: fixed;
+  background-size: cover;
+}
